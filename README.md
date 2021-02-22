@@ -3,7 +3,7 @@
 
 Just wanted to spread the real good concentration technique
 
-<a href = "https://theramann.github.io/animedoro/">Check out the website now </a>
+<a href = "https://animedoro.vercel.app/">Check out the website now </a>
 
 <a href = "https://www.youtube.com/watch?v=bUjGZJIgse0">
 <img 
