@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AllBars from './AllBars';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <br />
+    <AllBars />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('progressBar')
 );
 
 // If you want to start measuring performance in your app, pass a function
