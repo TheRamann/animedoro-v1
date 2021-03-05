@@ -12,7 +12,6 @@ function startcount() {
         let seconds
         const countdownEl = document.getElementById('countdown');
         document.getElementById("pauseButton").addEventListener('click', function () {
-            console.log("working?")
             if(isPaused == true){
                 isPaused = false
             }
@@ -21,9 +20,6 @@ function startcount() {
             }
         })
         var AfterStarting = setInterval(()=>{
-                do { 
-                    
-                } while (isPaused == true);
             if(isPaused == false){
                 minutes = Math.floor(time / 60);
                 seconds = time % 60;
