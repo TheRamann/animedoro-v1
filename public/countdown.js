@@ -7,10 +7,12 @@ function startcount() {
         runningornot = true
         const startingMinutes = 40;
         let time = startingMinutes * 60;
+        let minutes;
+        let seconds
         const countdownEl = document.getElementById('countdown');
         var AfterStarting = setInterval(()=>{
-            const minutes = Math.floor(time / 60);
-            let seconds = time % 60;
+            minutes = Math.floor(time / 60);
+            seconds = time % 60;
             seconds = seconds < 10 ? '0' + seconds : seconds;
             countdownEl.innerHTML = `${minutes}: ${seconds}`
             time--;
@@ -21,10 +23,6 @@ function startcount() {
             }
         }
         , 1000);
-        document.getElementById('pauseButton').addEventListener("click", function () {
-            countdownEl.innerHTML("Timer Stopped....")
-            clearInterval(AfterStarting)
-        })
         
     }
 
