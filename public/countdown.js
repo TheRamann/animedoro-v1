@@ -22,6 +22,7 @@ function startcount() {
         }
         , 1000);
         document.getElementById('pauseButton').addEventListener("click", function () {
+            countdownEl.innerHTML("Timer Stopped....")
             clearInterval(AfterStarting)
         })
         
