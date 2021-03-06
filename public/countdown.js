@@ -7,13 +7,15 @@ function startcount() {
     if(runningornot === false){
         isPaused = false;
         runningornot = true
-        const startingMinutes = 0.05;
+        const startingMinutes = 40;
         let time = startingMinutes * 60;
         let minutes;
         let seconds
         const countdownEl = document.getElementById('countdown');
         document.getElementById("startButton").addEventListener("click", function (){
-            
+            if(isPaused == true){
+                isPaused = false
+            }
         })
         document.getElementById("pauseButton").addEventListener('click', function () {
             if(isPaused == false){
