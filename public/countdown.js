@@ -1,6 +1,7 @@
 /* eslint-disable eqeqeq */
 var runningornot = false;
 var isPaused;
+
 // eslint-disable-next-line no-unused-vars
 function startcount() {
     if(runningornot === false){
@@ -32,10 +33,7 @@ function startcount() {
                     alert("Time To Watch Anime")
                 }
             }
-            
         }
         , 1000);
-        
     }
-
 }
