@@ -12,10 +12,10 @@ function startcount() {
         let minutes;
         let seconds
         const countdownEl = document.getElementById('countdown');
-        document.getElementById("startButton").addEventListener("click", function (){
-            
-        })
         document.getElementById("pauseButton").addEventListener('click', function () {
+            if(isPaused == true){
+                isPaused = false
+            }
             if(isPaused == false){
                 isPaused = true
             }
