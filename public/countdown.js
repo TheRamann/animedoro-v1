@@ -7,17 +7,20 @@ function startcount() {
     if(runningornot === false){
         isPaused = false;
         runningornot = true
-        const startingMinutes = 40;
+        const startingMinutes = 0.05;
         let time = startingMinutes * 60;
         let minutes;
         let seconds
         const countdownEl = document.getElementById('countdown');
+<<<<<<< HEAD
 <<<<<<< HEAD
         document.getElementById("pauseButton").addEventListener('click', function () {
             if(isPaused == true){
                 isPaused = false
             }
 =======
+=======
+>>>>>>> parent of bd8ceb3 (fixed pause button)
         document.getElementById("startButton").addEventListener("click", function (){
             
         })
