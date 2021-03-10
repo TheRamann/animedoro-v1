@@ -12,18 +12,20 @@ function startcount() {
     if(runningornot === false){
         isPaused = false;
         runningornot = true
+<<<<<<< HEAD
         var startingMinutes = 40;
         if(theValueForCustomTime !== null || theValueForCustomTime !== undefined){
             startingMinutes = theValueForCustomTime
         }
+=======
+        const startingMinutes = 0.05;
+>>>>>>> parent of bd8ceb3 (fixed pause button)
         let time = startingMinutes * 60;
         let minutes;
         let seconds
         const countdownEl = document.getElementById('countdown');
         document.getElementById("startButton").addEventListener("click", function (){
-            if(isPaused == true){
-                isPaused = false
-            }
+            
         })
         document.getElementById("pauseButton").addEventListener('click', function () {
             if(isPaused == false){
