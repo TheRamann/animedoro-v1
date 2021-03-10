@@ -12,10 +12,17 @@ function startcount() {
         let minutes;
         let seconds
         const countdownEl = document.getElementById('countdown');
+<<<<<<< HEAD
         document.getElementById("pauseButton").addEventListener('click', function () {
             if(isPaused == true){
                 isPaused = false
             }
+=======
+        document.getElementById("startButton").addEventListener("click", function (){
+            
+        })
+        document.getElementById("pauseButton").addEventListener('click', function () {
+>>>>>>> parent of bd8ceb3 (fixed pause button)
             if(isPaused == false){
                 isPaused = true
             }
