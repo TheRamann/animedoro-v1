@@ -1,13 +1,21 @@
+import {theValueForCustomTime} from '../src/GetInput/GetInput'
+
 /* eslint-disable eqeqeq */
 var runningornot = false;
 var isPaused;
 
+document.getElementById("startButton").addEventListener("click", function (){
+    startcount()
+})
 // eslint-disable-next-line no-unused-vars
 function startcount() {
     if(runningornot === false){
         isPaused = false;
         runningornot = true
-        const startingMinutes = 40;
+        var startingMinutes = 40;
+        if(theValueForCustomTime !== null || theValueForCustomTime !== undefined){
+            startingMinutes = theValueForCustomTime
+        }
         let time = startingMinutes * 60;
         let minutes;
         let seconds
