@@ -7,7 +7,7 @@ function startcount() {
     if(runningornot === false){
         isPaused = false;
         runningornot = true
-        const startingMinutes = 0.05;
+        const startingMinutes = 40;
         let time = startingMinutes * 60;
         let minutes;
         let seconds
