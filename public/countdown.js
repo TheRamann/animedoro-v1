@@ -14,6 +14,7 @@ function startcount() {
         const countdownEl = document.getElementById('countdown');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         document.getElementById("pauseButton").addEventListener('click', function () {
             if(isPaused == true){
                 isPaused = false
@@ -26,6 +27,12 @@ function startcount() {
         })
         document.getElementById("pauseButton").addEventListener('click', function () {
 >>>>>>> parent of bd8ceb3 (fixed pause button)
+=======
+        document.getElementById("pauseButton").addEventListener('click', function () {
+            if(isPaused == true){
+                isPaused = false
+            }
+>>>>>>> parent of e23e641 (cleared codes (i literally mean cleared))
             if(isPaused == false){
                 isPaused = true
             }
